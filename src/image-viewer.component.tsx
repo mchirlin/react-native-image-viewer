@@ -537,7 +537,7 @@ export default class ImageViewer extends React.Component<Props, State> {
               horizontalOuterRangeOffset={this.handleHorizontalOuterRangeOffset}
               responderRelease={this.handleResponderRelease}
               onLongPress={this.handleLongPressWithIndex.get(index)}
-              onClick={this.handleClick}
+              onClick={this.props.onClick}
               onDoubleClick={this.handleDoubleClick}
               imageWidth={width}
               imageHeight={height}
